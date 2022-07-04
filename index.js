@@ -71,7 +71,7 @@ blueconnect.prototype = {
                 });
                 callback(null, 0);
             }else if (!this.config.bluedeviceserial ){     // Then get the Blue Device Serial
-              this.log('No Blue Devbice Serial provided in the CONFIG, trying to get this value : ');
+              this.log('No Blue Device Serial provided in the CONFIG, trying to get this value : ');
               api.getSwimmingPoolBlueDevices(this.config.swimmingpoolid).then(function(data){
                   var jsonParsed = JSON.parse(data);
                   console.log('Add in Config : "bluedeviceserial" : "' +jsonParsed.data[0].blue_device_serial+'"');
