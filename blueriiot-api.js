@@ -1,3 +1,5 @@
+/* eslint-disable no-undef */
+/* eslint-disable @typescript-eslint/no-var-requires */
 const { BlueToken, BlueCredentials } = require('./BlueToken.js');
 
 var apigClientFactory = require('aws-api-gateway-client').default;
@@ -39,16 +41,16 @@ class BlueriiotAPI {
     };
     //login
     try {
-      var result = await apigClient.invokeApi(pathParams, pathTemplate, method, additionalParams, body);
-      var data = result.data;
+      var resultlogin = await apigClient.invokeApi(pathParams, pathTemplate, method, additionalParams, body);
+      var data = resultlogin.data;
       var cred = data.credentials;
 
       var blueCred = new BlueCredentials(cred.access_key, cred.secret_key, cred.session_token, cred.expiration);
       this.token = new BlueToken(data.identity_id, data.token, blueCred);
 
-    } catch (result) {
+    } catch (resultlogin) {
       this.token = '';
-      throw new Error(result.response.data.errorMessage);
+      throw new Error(resultlogin.response.data.errorMessage);
     }
   };
 
@@ -77,7 +79,7 @@ class BlueriiotAPI {
     const body = {
     };
 
-    var result = '';
+    // var result = '';
     try {
       var response = await apigClient.invokeApi(pathParams, pathTemplate, method, additionalParams, body);
       var data = response.data;

@@ -1,7 +1,7 @@
 {
   "displayName": "BlueConnect",
   "name": "homebridge-blueconnect",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Add your BlueRiiot smart pool device to homebridge",
   "license": "UNLICENSED",
   "repository": {
@@ -16,23 +16,15 @@
     "homebridge": ">=0.4.8"
   },
   "scripts": {
-    "lint": "eslint **.js --max-warnings=0",
-    "watch": "npm run build && npm link && nodemon",
-    "build": "rimraf ./dist && tsc",
-    "prepublishOnly": "npm run lint && npm run build",
-    "test": "mocha"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "aws-api-gateway-client": ">=0.3.7",
-    "eslint": "^8.19.0"
+    "aws-api-gateway-client": "^0.3.7"
   },
   "bugs": {
     "url": "https://github.com/VanAxl/homebridge-blueconnect/issues"
   },
   "homepage": "https://github.com/VanAxl/homebridge-blueconnect#readme",
   "main": "index.js",
-  "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.30.5"
-  },
   "author": "VanAxl"
 }

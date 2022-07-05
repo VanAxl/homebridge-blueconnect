@@ -22,4 +22,5 @@ class BlueCredentials {
     this.expiration = expiration;
   }
 }
-module.exports = { BlueToken, BlueCredentials }
+// eslint-disable-next-line no-undef
+module.exports = { BlueToken, BlueCredentials };
