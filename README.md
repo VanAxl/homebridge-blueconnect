@@ -42,5 +42,5 @@ The configuration parameters need to be added to `accessories` section of the Ho
 * `username` and `password` (required) are the credentials you use in the BlueConnect app.
 
 To be added in the config section: the Swimming Pool ID and the BlueDevice ID.
-For the moment, these IDs will be displayed on the log of homebridge during homebride start up, so you can copy/paste it in the config section.
+For the moment, these IDs will be displayed in the homebridge log console during homebridge startup, so you can copy/paste it in the config section.
 
