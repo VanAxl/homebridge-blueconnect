@@ -13,7 +13,7 @@ It reads the Swimming pool temperature, using the BlueConnect account to retreiv
 
 ## Installation
 
-to be define ...
+npm install VanAxl/homebridge-blueconnect
 
 ## Configurations
 
@@ -37,10 +37,10 @@ The configuration parameters need to be added to `accessories` section of the Ho
 
 #### Parameters
 
-* `accessory ` is required, with `BlueRiit` value.  
+* `accessory ` is required, with `BlueRiiot` value.  
 * `name` (required) is anything you'd like to use to identify this device. You can always change the name from within the Home app.
 * `username` and `password` (required) are the credentials you use in the BlueConnect app.
 
-To be added : the Swimming Pool ID and the BlueDevice ID.
-For the moment, it will display these information on the log of homebridge during homebride start up.
+To be added in the config section: the Swimming Pool ID and the BlueDevice ID.
+For the moment, these IDs will be displayed on the log of homebridge during homebride start up, so you can copy/paste it in the config section.
 
