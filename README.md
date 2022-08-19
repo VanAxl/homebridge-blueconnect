@@ -28,7 +28,7 @@ The configuration parameters need to be added to `accessories` section of the Ho
                     "name": "XXX",
                     "email": "XXX@XXX.XXX",
                     "password": "XXX",
-                    "swimmingpoolid": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+                    "swimmingpoolid": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
                     "bluedeviceserial": "00000000"
                 }
             ]
