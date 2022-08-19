@@ -26,7 +26,7 @@ The configuration parameters need to be added to `accessories` section of the Ho
                 {
                     "accessory": "BlueRiiot",
                     "name": "XXX",
-                    "username": "XXX@XXX.XXX",
+                    "email": "XXX@XXX.XXX",
                     "password": "XXX"
                 }
             ]
@@ -39,7 +39,7 @@ The configuration parameters need to be added to `accessories` section of the Ho
 
 * `accessory ` is required, with `BlueRiiot` value.  
 * `name` (required) is anything you'd like to use to identify this device. You can always change the name from within the Home app.
-* `username` and `password` (required) are the credentials you use in the BlueConnect app.
+* `email` and `password` (required) are the credentials you use in the BlueConnect app.
 
 To be added in the config section: the Swimming Pool ID and the BlueDevice ID.
 For the moment, these IDs will be displayed in the homebridge log console during homebridge startup, so you can copy/paste it in the config section.
