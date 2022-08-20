@@ -24,7 +24,7 @@ function blueconnect(log, config, api) {
   this.config = config;
   this.homebridge = api;
   this.model = config.model || "Model not available";
-  this.serial =  "0000000";
+  this.serial =  this.config.bluedeviceserial;
   this.manufacturer = config["manufacturer"] || "Blue Riiot";
 
   if (this.config["debug"] == "true")  {this.log('CONFIG: Swimming Pool ID '+ this.config.swimmingpoolid)};
