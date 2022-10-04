@@ -23,7 +23,7 @@ function blueconnect(log, config, api) {
   this.log = log;
   this.config = config;
   this.homebridge = api;
-  this.model = config.model || "Model not available";
+  this.model = 'Blue Connect : ' + this.config.bluedeviceserial || "Model not available";
   this.serial =  this.config.bluedeviceserial;
   this.manufacturer = config["manufacturer"] || "Blue Riiot";
 
