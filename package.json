@@ -3,7 +3,7 @@
   "name": "homebridge-blueconnect",
   "version": "0.1.3",
   "description": "Add your BlueRiiot smart pool device to homebridge",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "icon": "icon.png",
   "repository": {
     "type": "git",
