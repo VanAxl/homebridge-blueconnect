@@ -49,5 +49,6 @@ Then look at the plugin logs, it will display the <i>Swimming Pool ID</i> and th
 FInally open again the config, and add both 
  - "swimmingpoolid": "xxxxxxxxxxxxxxxx",
  - "bluedeviceserial": "xxxxxxx"
+
 if these parameters are not written in the config file, these IDs will be displayed in the homebridge log console during homebridge startup, so you can copy/paste it in the config section.
 
