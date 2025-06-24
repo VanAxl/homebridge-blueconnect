@@ -1,7 +1,7 @@
 
 <p align="center">
 
-<img src="https://0g.citymesh.com/files/Blog/Riiot-Labs/_1400xAUTO_fit_center-center_100/blueriiot-logo.png" width="150">
+<img src="https://www.blueriiot.com/uploads/_460xAUTO_fit_center-center_100_none/blue-connect-plus_front.png" width="150">
 
 </p>
 
